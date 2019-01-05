@@ -1,0 +1,20 @@
+// curlsmtp.idl : IDL source for curlsmtp.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (curlsmtp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(5F362548-7325-4DCD-845F-C197BEE75F12),
+	version(1.0),
+	helpstring("curlsmtp 1.0 Type Library")
+]
+library curlsmtpLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

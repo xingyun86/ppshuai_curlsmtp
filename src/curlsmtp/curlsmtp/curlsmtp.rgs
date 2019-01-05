@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{BF30677F-AC3F-486D-9429-9981C75BFC2D} = s 'curlsmtp'
+		'curlsmtp.EXE'
+		{
+			val AppID = s {BF30677F-AC3F-486D-9429-9981C75BFC2D}
+		}
+	}
+}
